@@ -8,7 +8,7 @@
     var videoElement = undefined;
     var hidden_canvas = undefined;
 
-    $.getScript('https://eesh.github.io/scratch-test/clarifai.js', checkClarifai);
+    $.getScript('https://sdk.clarifai.com/js/clarifai-latest.js', checkClarifai);
 
     function checkClarifai() {
       if(Clarifai === undefined) {
@@ -68,7 +68,7 @@
     }
 
     ext.initializeClarifai = function (apikey1, apikey2, callback) {
-      clarifai = new Clarifai.App(apikey1, apikey2);
+      clarifai = new Clarifai.App(apikey1);
       if (clarifai == undefined) {
         clarifaiLoaded = false;
       } else {
