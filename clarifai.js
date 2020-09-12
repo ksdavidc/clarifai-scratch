@@ -297,7 +297,7 @@
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
-          ['w', 'Connect to API: %s %s', 'initializeClarifai', 'vKCXoGNBI9RrFYs33BUxcDOB3WoMJ5rK9D0hSD4J', 'cva5xoSvMf_htwZZHIZ_9JhjThL8N0BX_PqaJPUj'],
+          ['w', 'Connect to API: %s ', 'initializeClarifai', 'vKCXoGNBI9RrFYs33BUxcDOB3WoMJ5rK9D0hSD4J', 'cva5xoSvMf_htwZZHIZ_9JhjThL8N0BX_PqaJPUj'],
           ['w', 'Search image using link %s', 'performLinkSearch',],
           ['w', 'Search image using DataURI %s', 'performDataSearch'],
           ['w', 'Search image using camera', 'performCameraSearch'],
